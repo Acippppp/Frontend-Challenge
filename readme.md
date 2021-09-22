@@ -3,3 +3,4 @@
 - order-summary-component-main - https://acip-ordersummary.netlify.app/
 - profile-card-component-main - https://acip-profilecard.netlify.app/
 - stats-preview-card-component-main - https://acip-stats-component.netlify.app/
+- faq-accordion-card-main - https://faq-accordion-asip.netlify.app/
