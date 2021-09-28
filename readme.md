@@ -4,3 +4,4 @@
 - profile-card-component-main - https://acip-profilecard.netlify.app/
 - stats-preview-card-component-main - https://acip-stats-component.netlify.app/
 - faq-accordion-card-main - https://faq-accordion-asip.netlify.app/
+- Proof Section - https://acip-proof-section.netlify.app/
