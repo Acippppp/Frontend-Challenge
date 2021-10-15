@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root{
+/* Primary */
+--moderate-violet: hsl(263, 55%, 52%);
+--Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--Very-dark-blackish-blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+/* Neutral */
+--Light-gray: hsl(0, 0%, 81%);
+--Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--Light-grayish-blue);
+    margin: 40px;
+}
+
+.container{
+    display: grid;
+    gap: 20px;
+}
+
+
+.quote{
+    right: 15px;
+    top: 15px;
+    position:absolute;
+    opacity: 0.2;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+
+}
+.card img{
+    border-radius: 50%;
+    width: 40px;
+    
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
+.profile h4{
+    margin-bottom: 4px;
+}
+.profile h5{
+    opacity: 50%;
+}
+
+.person{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;    
+}
+
+.Daniel{
+    background-color: var(--moderate-violet);
+    color: var(--White);
+}
+
+.Jonathan{
+    background-color: var(--Very-dark-grayish-blue);
+    color: var(--White);
+}
+
+.Harmon{
+    background-color: var(--White);
+    color: var(--Very-dark-grayish-blue);
+}
+.Patrick{
+    background-color: var(--Very-dark-blackish-blue);
+    color: var(--White);
+}
+
+.Kira{
+    background-color: var(--White);
+    color: var(--Very-dark-grayish-blue);
+}
+
+.feedback h2{
+    margin-bottom: 20px;  
+}
+
+.feedback p{
+    line-height: 1.5;
+    opacity: 70%;
+}
+
+@media (min-width:768px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:1280px) {
+    .container{
+        grid-template-columns: repeat(4,1fr);
+        max-width: 1200px;
+        margin: 50px auto;
+    }
+
+    .Daniel{
+        grid-column:1/3
+    }
+
+    .Kira{
+        grid-column:4;
+        grid-row: 1/3 ;
+    }
+    .Patrick{
+        grid-column: 2/4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
