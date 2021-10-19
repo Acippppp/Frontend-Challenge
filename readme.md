@@ -7,4 +7,4 @@
 - Proof Section - https://acip-proof-section.netlify.app/
 - Grid Section - https://asip-gridsection.netlify.app/
 - Moba(For fun) - https://moba-asip.netlify.app/
--Tip Calculator - https://tip-calculator-asip.netlify.app/
+- Tip Calculator - https://tip-calculator-asip.netlify.app/
